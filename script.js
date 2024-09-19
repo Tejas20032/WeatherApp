@@ -79,7 +79,7 @@ search.addEventListener('click', () => {
                 const infoHumidity = document.querySelector('.info-humidity');
                 const infoWind = document.querySelector('.info-wind');
 
-                // Clear existing clones before creating new ones
+                
                 document.querySelectorAll('.active-clone').forEach(clone => clone.remove());
 
                 const elCloneInfoWeather = infoWeather.cloneNode(true);
